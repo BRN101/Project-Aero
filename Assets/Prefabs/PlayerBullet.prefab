@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2410757407757398402}
   - component: {fileID: -9136751929845337979}
   m_Layer: 0
-  m_Name: Cube (1) 1
+  m_Name: PlayerBullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,8 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e581845737bebea258ee062fc16ede9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 10
-  tiempoDeVida: 3
-  damage: 10
+  lifetime: 3
   direccion: {x: 0, y: 0, z: 0}
   isPlayerBullet: 0

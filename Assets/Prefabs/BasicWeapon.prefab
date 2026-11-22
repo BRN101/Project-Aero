@@ -121,9 +121,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5201799632924074294, guid: b1289cc7246ba69e8b41f5701c3a7677, type: 3}
   bulletAddressableKey: 
-  bulletSpeed: 15
+  bulletSpeed: 110
   damage: 10
-  fireRate: 0.15
+  fireInterval: 0.12
   firePoint: {fileID: 4634504679955859003}
 --- !u!1 &7841339880117151682
 GameObject:
@@ -135,7 +135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4634504679955859003}
   m_Layer: 0
-  m_Name: PuntoDisparo
+  m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

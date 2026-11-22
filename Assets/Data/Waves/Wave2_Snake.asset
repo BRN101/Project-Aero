@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98a669da2bc053707a89f78334c0051d, type: 3}
+  m_Name: Wave2_Snake
+  m_EditorClassIdentifier: 
+  entries:
+  - note: Crosses from left to right along a path
+    prefab: {fileID: 5555808106521374651, guid: c6614d0c4bce7de1d9b35fd7c1f23872, type: 3}
+    delay: 0
+    count: 6
+    interval: 0.45
+    anchor: 0
+    position: {x: -14, y: 3, z: 30}
+    spacing: {x: 0, y: 0, z: 0}
+    phaseOffsetPerUnit: 0
+    overrideEntry: 1
+    entryOffset: {x: -15, y: 0, z: 0}
+    overrideMovement: 1
+    movement:
+      type: 7
+      frequency: 0.4
+      amplitude: 3
+      radius: 3
+      diagonalDirection: {x: 1, y: 0.5}
+      blendDuration: 0.3
+      points:
+      - {x: 0, y: 0, z: 0}
+      - {x: 7, y: -4, z: -4}
+      - {x: 14, y: 0, z: -8}
+      - {x: 21, y: 4, z: -4}
+      - {x: 28, y: 0, z: 0}
+      - {x: 36, y: -2, z: 4}
+      smoothPath: 1
+      pathSpeed: 9
+      pathMode: 2
+    overrideTimeOnScreen: 1
+    timeOnScreen: 0
